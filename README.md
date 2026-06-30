@@ -4,3 +4,4 @@ What I have learnt so far:
 - useState
 - components
 - conditional rendering
+- lifting state up
