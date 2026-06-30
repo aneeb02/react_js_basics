@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Profile from './Profile'
+import Products from './Products'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     //this is markup tag, used to render multiple elements
     <>  
       <Profile/>
+      <Products/>
       {/* <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
