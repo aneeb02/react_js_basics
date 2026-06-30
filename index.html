@@ -11,23 +11,25 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/jsx">
-        // const app = document.getElementById("app");
-
-        // const header = document.createElement("h1");
-
-        // const text="Hi I am a header";
-        // const content = document.createTextNode(text);
-
-
-        // header.appendChild(content);
-
-        // app.appendChild(header);
-
         const app = document.getElementById("app");
 
+        function Header() {
+            return <h1>Develop. Preview. Ship.</h1>;
+          }
+        function Para() {
+            return <p>Paragraph</p>;
+        }
+        
+        function HomePage() {
+            return <div>
+                <Header/>
+                <Header/>
+                <Para/>
+            </div>;
+        }
+           
         const root = ReactDOM.createRoot(app);
-        root.render(<h1>Develop. Ship.</h1>);
-
+        root.render(<HomePage/>);
     </script>
 </body>
 </html>
